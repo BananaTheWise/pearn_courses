@@ -1,0 +1,32 @@
+{
+  "id": "dart-fundamentals",
+  "title": "Dart Fundamentals",
+  "description": "Learn the core concepts of Dart programming language",
+  "language": "English",
+  "level": "Beginner",
+  "order": 1,
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction to Dart",
+      "description": "Get started with Dart programming",
+      "order": 1,
+      "lessons": [
+        { "id": "welcome", "title": "Welcome to Dart", "order": 1 },
+        { "id": "setup", "title": "Setting Up Environment", "order": 2 },
+        { "id": "hello-world", "title": "Your First Dart Program", "order": 3 }
+      ]
+    },
+    {
+      "id": "basics",
+      "title": "Dart Basics",
+      "description": "Learn variables, types, and operations",
+      "order": 2,
+      "lessons": [
+        { "id": "variables", "title": "Variables and Types", "order": 1 },
+        { "id": "operators", "title": "Operators and Expressions", "order": 2 },
+        { "id": "control-flow", "title": "Control Flow", "order": 3 }
+      ]
+    }
+  ]
+}
