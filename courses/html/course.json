@@ -1,122 +1,77 @@
 {
-  "id": "rust",
-  "slug": "rust",
-  "title": "Rust Programming",
-  "shortTitle": "Rust",
-  "description": "A complete Rust programming course progressing from absolute beginner to professional and expert-level development.",
-  "language": "rust",
-  "category": "programming",
-  "version": 1,
-
-  "metadata": {
-    "author": "Pearn",
-    "status": "published",
-    "featured": true,
-    "estimatedHours": 200,
-    "difficulty": "beginner-to-legend",
-    "certificateAvailable": false
-  },
-
-  "requirements": {
-    "prerequisites": [],
-    "recommendedKnowledge": [
-      "Basic computer usage",
-      "Basic programming concepts are helpful but not required"
-    ]
-  },
-
-  "levels": [
+  "id": "html",
+  "title": "HTML Basics",
+  "description": "Learn the fundamentals of HTML, the language of the web.",
+  "language": "en",
+  "level": "beginner",
+  "order": 1,
+  "chapters": [
     {
-      "id": "beginner",
-      "name": "Beginner",
-      "description": "Learn the fundamentals of Rust programming.",
+      "id": "01-introduction",
+      "title": "Introduction to HTML",
+      "description": "What is HTML and how to structure a document.",
       "order": 1,
-      "chapterIds": [
-        "rust-chapter-01",
-        "rust-chapter-02"
+      "lessons": [
+        {
+          "id": "01-what-is-html",
+          "title": "What is HTML?",
+          "order": 1
+        },
+        {
+          "id": "02-html-document",
+          "title": "A Basic HTML Document",
+          "order": 2
+        }
       ]
     },
     {
-      "id": "intermediate",
-      "name": "Intermediate",
-      "description": "Build stronger Rust programming skills.",
+      "id": "02-html-elements",
+      "title": "Common HTML Elements",
+      "description": "Headings, paragraphs, links, images and more.",
       "order": 2,
-      "chapterIds": []
+      "lessons": [
+        {
+          "id": "01-headings-paragraphs",
+          "title": "Headings and Paragraphs",
+          "order": 1
+        },
+        {
+          "id": "02-links-images",
+          "title": "Links and Images",
+          "order": 2
+        }
+      ]
     },
     {
-      "id": "advanced",
-      "name": "Advanced",
-      "description": "Learn advanced Rust concepts and patterns.",
+      "id": "03-html-forms",
+      "title": "HTML Forms",
+      "description": "Collecting user input with forms.",
       "order": 3,
-      "chapterIds": []
+      "lessons": [
+        {
+          "id": "01-form-basics",
+          "title": "Form Basics",
+          "order": 1
+        },
+        {
+          "id": "02-input-types",
+          "title": "Input Types",
+          "order": 2
+        }
+      ]
     },
     {
-      "id": "professional",
-      "name": "Professional",
-      "description": "Develop production-quality Rust applications.",
+      "id": "04-html-semantics",
+      "title": "Semantic HTML",
+      "description": "Using meaningful elements for better structure and accessibility.",
       "order": 4,
-      "chapterIds": []
-    },
-    {
-      "id": "legend",
-      "name": "Legend",
-      "description": "Master advanced Rust internals, performance, architecture, and expert-level techniques.",
-      "order": 5,
-      "chapterIds": []
+      "lessons": [
+        {
+          "id": "01-semantic-elements",
+          "title": "Semantic Elements",
+          "order": 1
+        }
+      ]
     }
-  ],
-
-  "chapters": {
-    "directory": "chapters",
-    "count": 0,
-    "files": [
-      "01.json",
-      "02.json"
-    ]
-  },
-
-  "lessons": {
-    "directory": "lessons",
-    "count": 0,
-    "files": []
-  },
-
-  "exercises": {
-    "directory": "exercises",
-    "count": 0,
-    "files": []
-  },
-
-  "exams": {
-    "directory": "exams",
-    "count": 0,
-    "files": []
-  },
-
-  "features": {
-    "progressTracking": true,
-    "xp": true,
-    "streaks": true,
-    "exercises": true,
-    "exams": true,
-    "offline": true,
-    "notes": true,
-    "courseReactions": true
-  },
-
-  "xp": {
-    "courseCompletion": 1000,
-    "chapterCompletion": 100,
-    "lessonCompletion": 20,
-    "exerciseCompletion": 30,
-    "examCompletion": 200
-  },
-
-  "progression": {
-    "requiresLessonCompletion": true,
-    "requiresExerciseCompletion": false,
-    "requiresExamCompletion": true,
-    "allowSkippingLessons": false,
-    "allowSkippingChapters": false
-  }
+  ]
 }
