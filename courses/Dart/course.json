@@ -16,17 +16,6 @@
         { "id": "setup", "title": "Setting Up Environment", "order": 2 },
         { "id": "hello-world", "title": "Your First Dart Program", "order": 3 }
       ]
-    },
-    {
-      "id": "basics",
-      "title": "Dart Basics",
-      "description": "Learn variables, types, and operations",
-      "order": 2,
-      "lessons": [
-        { "id": "variables", "title": "Variables and Types", "order": 1 },
-        { "id": "operators", "title": "Operators and Expressions", "order": 2 },
-        { "id": "control-flow", "title": "Control Flow", "order": 3 }
-      ]
     }
   ]
 }
