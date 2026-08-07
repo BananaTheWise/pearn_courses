@@ -1,9 +1,9 @@
 {
-"id": "dart-fundamentals",
+  "id": "dart-fundamentals",
   "title": "Dart Fundamentals",
   "description": "Learn the core concepts of Dart programming language",
-  "language": "en",          
-  "level": "beginner",      
+  "language": "en",
+  "level": "beginner",
   "order": 1,
   "chapters": [
     {
