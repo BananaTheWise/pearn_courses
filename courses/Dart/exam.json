@@ -1,34 +1,16 @@
 {
   "id": "dart-fundamentals-exam",
-  "title": "Dart Fundamentals Final Exam",
-  "description": "Test your knowledge of Dart fundamentals",
+  "title": "Dart Fundamentals Exam",
+  "description": "Test your knowledge of Dart basics",
   "passing_score": 0.7,
-  "time_limit_minutes": 60,
+  "time_limit_minutes": 30,
   "questions": [
     {
       "id": "q1",
-      "type": "multiple_choice",
-      "question": "What is the output of: print(5 ~/ 2);",
-      "options": ["2", "2.5", "2.0", "3"],
-      "correct_answer": "2",
-      "explanation": "The ~/ operator performs integer division.",
-      "points": 10
-    },
-    {
-      "id": "q2",
       "type": "text",
-      "question": "What keyword is used to declare a compile-time constant?",
-      "correct_answer": "const",
-      "explanation": "const is used for compile-time constants.",
-      "points": 10
-    },
-    {
-      "id": "q3",
-      "type": "multiple_choice",
-      "question": "Which of these is NOT a valid Dart type?",
-      "options": ["int", "float", "double", "bool"],
-      "correct_answer": "float",
-      "explanation": "Dart uses double for floating-point numbers, not float.",
+      "question": "What is the entry point function in Dart?",
+      "correct_answer": "main",
+      "explanation": "Every Dart app starts executing from the main() function.",
       "points": 10
     }
   ]
