@@ -97,33 +97,3 @@ Use the <img> tag with src and alt.
 
 <img src="photo.jpg" alt="Description of photo">
 
-Exercise
-
-Create a page with a link to your favourite website and an image (use a placeholder URL like https://via.placeholder.com/150).
-
-
----
-
-#### `02-html-elements/exercises.json`
-
-```json
-{
-  "exercises": [
-    {
-      "id": "ex1",
-      "type": "multiple_choice",
-      "question": "Which tag is used for the largest heading?",
-      "options": ["<h1>", "<h6>", "<heading>", "<head>"],
-      "correct_answer": 0,
-      "explanation": "<h1> is the largest heading.",
-      "points": 5
-    },
-    {
-      "id": "ex2",
-      "type": "text",
-      "question": "Write the HTML tag for a paragraph.",
-      "correct_answer": "<p>",
-      "points": 5
-    }
-  ]
-}

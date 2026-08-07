@@ -23,8 +23,55 @@
           "order": 2
         }
       ]
+    },
+    {
+      "id": "02-html-elements",
+      "title": "Common HTML Elements",
+      "description": "Headings, paragraphs, links, images and more.",
+      "order": 2,
+      "lessons": [
+        {
+          "id": "01-headings-paragraphs",
+          "title": "Headings and Paragraphs",
+          "order": 1
+        },
+        {
+          "id": "02-links-images",
+          "title": "Links and Images",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "03-html-forms",
+      "title": "HTML Forms",
+      "description": "Collecting user input with forms.",
+      "order": 3,
+      "lessons": [
+        {
+          "id": "01-form-basics",
+          "title": "Form Basics",
+          "order": 1
+        },
+        {
+          "id": "02-input-types",
+          "title": "Input Types",
+          "order": 2
+        }
+      ]
+    },
+    {
+      "id": "04-html-semantics",
+      "title": "Semantic HTML",
+      "description": "Using meaningful elements for better structure and accessibility.",
+      "order": 4,
+      "lessons": [
+        {
+          "id": "01-semantic-elements",
+          "title": "Semantic Elements",
+          "order": 1
+        }
+      ]
     }
-    
-    ]
+  ]
 }
-
