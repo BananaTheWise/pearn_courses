@@ -1,0 +1,43 @@
+{
+  "id": "2",
+  "title": "Dart Fundamentals",
+  "description": "Learn the core concepts of Dart programming language",
+  "language": "en",
+  "level": "beginner",
+  "order": 1,
+  "chapters": [
+    {
+      "id": "introduction",
+      "title": "Introduction to Dart",
+      "description": "Get started with Dart programming",
+      "order": 1,
+      "lessons": [
+        { "id": "introduction", "title": "Welcome to Dart", "order": 1 },
+        { "id": "Variables", "title": "Declare Variables in Dart", "order": 2 },
+        { "id": "hello-world", "title": "Your First Dart Program", "order": 3 }
+      ]
+    },
+    {
+      "id": "intermediate",
+      "title": "Discovering Dart",
+      "description": "Going to intermediate level with Dart",
+      "order": 2,
+      "lessons": [
+        { "id": "introduction", "title": "Welcome to Dart", "order": 1 },
+        { "id": "Variables", "title": "Setting Up Environment", "order": 2 },
+        { "id": "hello-world", "title": "Your First Dart Program", "order": 3 }
+      ]
+    },
+    {
+      "id": "introduction",
+      "title": "Introduction to Dart",
+      "description": "Get started with Dart programming",
+      "order": 2,
+      "lessons": [
+        { "id": "introduction", "title": "Welcome to Dart", "order": 1 },
+        { "id": "Variables", "title": "Declare Variables in Dart", "order": 2 },
+        { "id": "hello-world", "title": "Your First Dart Program", "order": 3 }
+      ]
+    }
+  ]
+}
