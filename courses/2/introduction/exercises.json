@@ -2,7 +2,7 @@
   "exercises": [
     {
       "id": "ex-1",
-      "lesson_id": "Introduction",
+      "lesson_id": "introduction",
       "type": "multiple_choice",
       "question": "Which company developed Dart?",
       "options": ["Microsoft", "Google", "Apple", "Facebook"],
@@ -13,7 +13,7 @@
     },
     {
       "id": "ex-2",
-      "lesson_id": "Introduction",
+      "lesson_id": "introduction",
       "type": "text",
       "question": "What is the file extension for Dart files?",
       "correct_answer": ".dart",
@@ -24,7 +24,7 @@
     {
       "id": "ex-3",
       "type": "code",
-      "lesson_id": "Introduction",
+      "lesson_id": "introduction",
       "question": "Write a Dart function that adds two numbers",
       "correct_answer": "int add(int a, int b) => a + b;",
       "explanation": "add(int a, int b) is the function that takes two integers and returns their sum.",

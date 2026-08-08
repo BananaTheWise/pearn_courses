@@ -1,7 +1,7 @@
 {
   "id": "2",
   "title": "Dart Fundamentals",
-  "description": "Learn the core concepts of Dart programming language",
+  "description": "Learn the core concepts of the Dart programming language.",
   "language": "en",
   "level": "beginner",
   "order": 1,
@@ -9,34 +9,70 @@
     {
       "id": "introduction",
       "title": "Introduction to Dart",
-      "description": "Get started with Dart programming",
+      "description": "Learn the basic concepts and syntax of Dart.",
       "order": 1,
       "lessons": [
-        { "id": "introduction", "title": "Welcome to Dart", "order": 1 },
-        { "id": "Variables", "title": "Declare Variables in Dart", "order": 2 },
-        { "id": "hello-world", "title": "Your First Dart Program", "order": 3 }
+        {
+          "id": "Introduction",
+          "title": "Welcome to Dart",
+          "order": 1
+        },
+        {
+          "id": "Variables",
+          "title": "Variables in Dart",
+          "order": 2
+        },
+        {
+          "id": "Control Flow",
+          "title": "Control Flow in Dart",
+          "order": 3
+        }
       ]
     },
     {
       "id": "intermediate",
-      "title": "Discovering Dart",
-      "description": "Going to intermediate level with Dart",
+      "title": "Intermediate Dart",
+      "description": "Build a stronger understanding of Dart programming.",
       "order": 2,
       "lessons": [
-        { "id": "introduction", "title": "Welcome to Dart", "order": 1 },
-        { "id": "Variables", "title": "Setting Up Environment", "order": 2 },
-        { "id": "hello-world", "title": "Your First Dart Program", "order": 3 }
+        {
+          "id": "OOP",
+          "title": "Object-Oriented Programming",
+          "order": 1
+        },
+        {
+          "id": "Functions",
+          "title": "Functions in Dart",
+          "order": 2
+        },
+        {
+          "id": "Advanced OOP",
+          "title": "Advanced Object-Oriented Programming",
+          "order": 3
+        }
       ]
     },
     {
-      "id": "introduction",
-      "title": "Introduction to Dart",
-      "description": "Get started with Dart programming",
-      "order": 2,
+      "id": "advanced",
+      "title": "Advanced Dart",
+      "description": "Explore advanced Dart programming concepts.",
+      "order": 3,
       "lessons": [
-        { "id": "introduction", "title": "Welcome to Dart", "order": 1 },
-        { "id": "Variables", "title": "Declare Variables in Dart", "order": 2 },
-        { "id": "hello-world", "title": "Your First Dart Program", "order": 3 }
+        {
+          "id": "Asynchronous Programming",
+          "title": "Asynchronous Programming",
+          "order": 1
+        },
+        {
+          "id": "Error Management",
+          "title": "Error Management",
+          "order": 2
+        },
+        {
+          "id": "Advanced Topics",
+          "title": "Advanced Dart Topics",
+          "order": 3
+        }
       ]
     }
   ]
