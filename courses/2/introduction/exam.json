@@ -1,0 +1,16 @@
+{
+  "id": "introduction",
+  "courseId": "2",
+  "title": "Introduction — Chapter Exam",
+  "description": "Covers Variables and Control Flow.",
+  "passingScore": 0.7,
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What keyword declares a constant in Dart?",
+      "options": ["var", "final", "let", "def"],
+      "correctAnswer": "final",
+      "points": 1
+    }
+  ]
+}
