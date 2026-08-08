@@ -7,8 +7,14 @@
   "questions": [
     {
       "id": "q1",
+      "type": "multiple_choice",
       "question": "What keyword declares a constant in Dart?",
-      "options": ["var", "final", "let", "def"],
+      "options": [
+        "var",
+        "final",
+        "let",
+        "def"
+      ],
       "correctAnswer": "final",
       "points": 1
     }
